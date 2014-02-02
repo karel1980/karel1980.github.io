@@ -1,14 +1,7 @@
 ---
 layout: default
-title: Random Platitudes
+title: Random Platitudes - dude category
 ---
-
-<div id="categories">
-  <h1>Categories</h1>
-  <p>{% for category in site.categories %}
-  <a href="/{{ category | first }}/">{{ category | first }}</a>
-  {% endfor %}</p>
-</div>
 
 <div id="home">
   <h1>Blog Posts</h1>
@@ -17,5 +10,4 @@ title: Random Platitudes
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-
 </div>

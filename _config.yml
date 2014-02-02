@@ -1,0 +1,7 @@
+name: Random Platitudes
+url: http://karel1980.github.io
+markdown: redcarpet
+pygments: true
+#rss_path       - (optional) the path to the feed (if not specified "/" will be used)
+#rss_name       - (optional) the name of the rss file (if not specified "rss.xml" will be used)
+#rss_post_limit - (optional) the number of posts in the feed
